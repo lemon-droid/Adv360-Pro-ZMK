@@ -23,7 +23,7 @@
     };
 
     macros {
-        doom_marauder: doom_marauder {
+        doom_marauder_v2: doom_marauder {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
