@@ -26,7 +26,13 @@
         doom_marauder: doom_marauder {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp N5 &mkp LCLK &kp NUMBER_6 &mkp LCLK &kp NUMBER_4 &mkp LCLK>;
+            bindings =
+                <&kp N5>,
+                <&macro_wait_time 75>,
+                <&mkp MB1 &kp NUMBER_6 &kp NUMBER_4>,
+                <&macro_press>,
+                <&macro_press>;
+
             label = "DOOM_MARAUDER";
         };
     };
