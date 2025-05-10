@@ -29,9 +29,11 @@
             bindings =
                 <&kp N5>,
                 <&macro_wait_time 75>,
-                <&mkp MB1 &kp NUMBER_6 &kp NUMBER_4>,
-                <&macro_press>,
-                <&macro_press>;
+                <&mkp MB1 &kp NUMBER_4>,
+                <&macro_wait_time 40>,
+                <&kp NUMBER_6>,
+                <&macro_wait_time 50>,
+                <&mkp MB1>;
 
             label = "DOOM_MARAUDER";
         };
