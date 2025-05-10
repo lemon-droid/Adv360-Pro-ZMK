@@ -29,10 +29,14 @@
             bindings =
                 <&kp N5>,
                 <&macro_wait_time 75>,
-                <&mkp MB1 &kp NUMBER_4>,
+                <&mkp MB1>,
                 <&macro_wait_time 40>,
                 <&kp NUMBER_6>,
                 <&macro_wait_time 50>,
+                <&mkp MB1>,
+                <&macro_wait_time 100>,
+                <&kp NUMBER_4>,
+                <&macro_wait_time 40>,
                 <&mkp MB1>;
 
             label = "DOOM_MARAUDER";
